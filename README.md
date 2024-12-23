@@ -7,8 +7,6 @@ So the day before yesterday, I saw someone else's download script, but I tested 
 So I made one myself based on the reference. I would like to thank @Author: Xiaojian Yuan/hf_download.py.
 But after seeing @Author: padeoe/hfd.md today. I thought I wasted half a day again and gave up.
 
-当然可以！以下是针对最后一版脚本的使用说明和命令示例。
-
 ---
 
 ## 使用说明
