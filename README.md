@@ -10,6 +10,13 @@ But after seeing @Author: padeoe/hfd.md today. I thought I wasted half a day aga
 ---
 
 ## 使用说明
+- 只需要下载hf_dl05.py和config.py
+- 放在你ComfyUI的python主目录里然后就在目录路径出启动cmd输入命令，如果你python环境复杂，在命令里的添加"路径"2个符号就好。
+- 还是要记得查看你PYTHON有没有添加到你的环境变量里。
+#### 复杂PYTHON环境下命令示例
+```sh
+"E:\Python\python.exe" "E:\Python\python\hf_dl05.py" --model baichuan-inc/Baichuan2-7B-Chat
+```
 
 ### 项目结构
 - `config.py`：包含所有可配置的选项和镜像站点支持选项。
@@ -38,7 +45,7 @@ mirror_options = {
 }
 ```
 
-### 主脚本 (`main_script.py`)
+### 主脚本 (`hf_dl05.py`)
 主脚本读取 `config.py` 中的配置选项和镜像站点支持选项，并根据用户输入执行下载任务。
 
 ### 命令行参数
